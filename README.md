@@ -1,6 +1,6 @@
-# svg-please
+# [svg-please](//chrisnager.github.io/svg-please/)
 
-Simple script to replace your bitmap icons with inline SVGs with bitmap fallback built in.
+Simple script to replace your bitmap icons with inline SVGs with bitmap fallback built in. [Check it out](//chrisnager.github.io/svg-please/).
 
 ## How to use
 
