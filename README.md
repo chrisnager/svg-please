@@ -1,10 +1,10 @@
 # [svg-please](//chrisnager.github.io/svg-please/)
 
-Simple script to replace your bitmap icons with inline SVGs with bitmap fallback built in. [Check it out](//chrisnager.github.io/svg-please/).
+Simple script to replace your bitmap icons with inline SVGs with bitmap fallback built in. Inline SVGs reduce your image requests to zero and are able to be styled with CSS. [Check it out](//chrisnager.github.io/svg-please/).
 
 ## How to use
 
-Include modernizr and svg-please.js in your project.
+Include [modernizr](//modernizr.com/) and [svg-please.js](//github.com/chrisnager/svg-please/blob/gh-pages/svg-please.js) in your project.
 
 Add your bitmap icon images as you normally would with `<img>` tags. Use the class `svg-please` for any icons you intend to replace with inline SVG icons.
 
