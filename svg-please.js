@@ -20,7 +20,7 @@
         function replaceImgs( imgs ) {
             for ( i = 0; i < imgs.length; i++ ) {
                 icons.push({
-                    name: imgs[i].getAttribute( 'src' ).replace( /\.[^/.]+$/, "" ).replace( 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/3174/', '' ), // Match app's path to icons (/img/icons/)
+                    name: imgs[i].getAttribute( 'src' ).replace( /\.[^/.]+$/, "" ).replace( 'img/icons/', '' ), // Match app's path to icons (/img/icons/)
                     title: imgs[i].getAttribute( 'alt' )
                 });
 
