@@ -6,6 +6,17 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
         <style>
+            body {
+                max-width: 60em;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 1em;
+            }
+
+            pre {
+                white-space: pre-wrap;
+            }
+
             .icon {
                 max-height: 25%;
                 display: inline-block;
@@ -34,8 +45,7 @@
         <h2>How to use</h2>
         <p>Include <a href="//modernizr.com/">modernizr</a> and <a href="//github.com/chrisnager/svg-please/blob/gh-pages/svg-please.js">svg-please.js</a> in your project.</p>
         <p>Add your bitmap icon images as you normally would with <code>&lt;img&gt;</code> tags. Use the class <code>svg-please</code> for any icons you intend to replace with inline SVG icons.
-        <pre>
-        <code>&lt;img class="svg-please" src="img/icons/plus.png" alt="Plus"&gt;</code></pre>
+        <pre><code>&lt;img class="svg-please" src="img/icons/plus.png" alt="Plus"&gt;</code></pre>
         <img class="svg-please" src="img/icons/plus.png" alt="Plus">
         <img class="svg-please" src="img/icons/twitter.png" alt="Twitter">
         <p><small>Crafted by <a href="//twitter.com/chrisnager">@chrisnager</a> &middot; View on <a href="//github.com/chrisnager/svg-please">GitHub</a> or <a href="//codepen.io/chrisnager/pen/BflFA/">CodePen</a></small></p>
